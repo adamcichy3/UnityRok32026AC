@@ -1,5 +1,29 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!244 &-7504546472445733189
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 2cf05e3814224984982e880f99423ae0
+  m_EffectName: Echo
+  m_MixLevel: a6f8d47f5c2b2364a854ebde21c162e9
+  m_Parameters:
+  - m_ParameterName: Delay
+    m_GUID: 043d15c300b20f94ebeb23699a22e895
+  - m_ParameterName: Decay
+    m_GUID: c3503c22f34b3314eaf67ed1c479e4e3
+  - m_ParameterName: Max channels
+    m_GUID: 205134f889d4fb844a8981753cab115a
+  - m_ParameterName: Drymix
+    m_GUID: 3244cb9273415d04983a6d9c53b96d9c
+  - m_ParameterName: Wetmix
+    m_GUID: 4af0c42c2562c094bb80159ca078fc17
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!244 &-7168608276845938226
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
@@ -33,7 +57,11 @@ AudioMixerController:
   - guid: a7cd919908e0db046bc1dce820ec2919
     name: Musicvolume
   - guid: 5f14cfc794763ba4d9da38ab21025c59
-    name: MyExposedParam 1
+    name: Echodelaymusic
+  - guid: 2b7acc72b36ee8144aec0a580db5ab7a
+    name: sfx
+  - guid: 043d15c300b20f94ebeb23699a22e895
+    name: Echosfx
   m_AudioMixerGroupViews:
   - guids:
     - ae79ad25f58693641ba9eaa642a2b316
@@ -159,6 +187,7 @@ AudioMixerGroupController:
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: -7168608276845938226}
+  - {fileID: -7504546472445733189}
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0
