@@ -39,6 +39,7 @@ MonoBehaviour:
     m_ErrorMessage: 
     m_UserModificationsEntityId:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       m_rawData: 1099511629093
     m_OriginalEntityId:
       m_rawData: 1099511629094
@@ -46,5 +47,10 @@ MonoBehaviour:
       m_rawData: 568105589213756492
     m_OriginalEntityId:
       m_rawData: 568105589213756490
+>>>>>>> Stashed changes
+=======
+      m_rawData: 1099511629093
+    m_OriginalEntityId:
+      m_rawData: 1099511629094
 >>>>>>> Stashed changes
   m_LoadAssets: 0
