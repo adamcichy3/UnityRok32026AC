@@ -7,11 +7,19 @@
       "dependencies": {}
     },
     "com.unity.2d.animation": {
+<<<<<<< Updated upstream
       "version": "16.0.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.2d.common": "15.0.0",
+=======
+      "version": "15.1.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.2d.common": "14.0.1",
+>>>>>>> Stashed changes
         "com.unity.2d.sprite": "1.0.0",
         "com.unity.collections": "2.4.3",
         "com.unity.modules.animation": "1.0.0",
@@ -20,11 +28,19 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.2d.aseprite": {
+<<<<<<< Updated upstream
       "version": "6.0.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.2d.common": "15.0.0",
+=======
+      "version": "5.0.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.2d.common": "14.0.1",
+>>>>>>> Stashed changes
         "com.unity.2d.sprite": "1.0.0",
         "com.unity.2d.tilemap": "1.0.0",
         "com.unity.mathematics": "1.2.6",
@@ -33,7 +49,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.2d.common": {
+<<<<<<< Updated upstream
       "version": "15.0.0",
+=======
+      "version": "14.0.1",
+>>>>>>> Stashed changes
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -47,11 +67,19 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.2d.psdimporter": {
+<<<<<<< Updated upstream
       "version": "15.0.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.2d.common": "15.0.0",
+=======
+      "version": "14.0.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.2d.common": "14.0.1",
+>>>>>>> Stashed changes
         "com.unity.2d.sprite": "1.0.0",
         "com.unity.2d.tilemap": "1.0.0"
       },
@@ -64,11 +92,19 @@
       "dependencies": {}
     },
     "com.unity.2d.spriteshape": {
+<<<<<<< Updated upstream
       "version": "16.0.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.2d.common": "15.0.0",
+=======
+      "version": "15.0.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.2d.common": "14.0.1",
+>>>>>>> Stashed changes
         "com.unity.mathematics": "1.1.0",
         "com.unity.modules.physics2d": "1.0.0"
       },
@@ -84,7 +120,11 @@
       }
     },
     "com.unity.2d.tilemap.extras": {
+<<<<<<< Updated upstream
       "version": "9.0.1",
+=======
+      "version": "8.0.3",
+>>>>>>> Stashed changes
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -95,16 +135,29 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.2d.tooling": {
+<<<<<<< Updated upstream
       "version": "4.0.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.2d.common": "15.0.0"
+=======
+      "version": "3.0.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.2d.common": "14.0.1",
+        "com.unity.modules.uielements": "1.0.0"
+>>>>>>> Stashed changes
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
+<<<<<<< Updated upstream
       "version": "2.0.0",
+=======
+      "version": "1.8.30",
+>>>>>>> Stashed changes
       "depth": 2,
       "source": "builtin",
       "dependencies": {}
@@ -126,7 +179,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collections": {
+<<<<<<< Updated upstream
       "version": "6.6.0",
+=======
+      "version": "6.5.0",
+>>>>>>> Stashed changes
       "depth": 1,
       "source": "builtin",
       "dependencies": {
@@ -204,7 +261,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
+<<<<<<< Updated upstream
       "version": "17.6.0",
+=======
+      "version": "17.5.0",
+>>>>>>> Stashed changes
       "depth": 1,
       "source": "builtin",
       "dependencies": {
@@ -215,6 +276,7 @@
       }
     },
     "com.unity.render-pipelines.universal": {
+<<<<<<< Updated upstream
       "version": "17.6.0",
       "depth": 0,
       "source": "builtin",
@@ -230,6 +292,23 @@
       "source": "builtin",
       "dependencies": {
         "com.unity.render-pipelines.core": "17.6.0"
+=======
+      "version": "17.5.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "17.5.0",
+        "com.unity.shadergraph": "17.5.0",
+        "com.unity.render-pipelines.universal-config": "17.5.0"
+      }
+    },
+    "com.unity.render-pipelines.universal-config": {
+      "version": "17.5.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "17.5.0"
+>>>>>>> Stashed changes
       }
     },
     "com.unity.searcher": {
@@ -247,6 +326,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
+<<<<<<< Updated upstream
       "version": "17.6.0",
       "depth": 1,
       "source": "builtin",
@@ -258,6 +338,18 @@
     },
     "com.unity.splines": {
       "version": "2.9.1",
+=======
+      "version": "17.5.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "17.5.0",
+        "com.unity.searcher": "4.9.3"
+      }
+    },
+    "com.unity.splines": {
+      "version": "2.9.0",
+>>>>>>> Stashed changes
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -268,7 +360,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
+<<<<<<< Updated upstream
       "version": "1.8.0",
+=======
+      "version": "1.7.0",
+>>>>>>> Stashed changes
       "depth": 0,
       "source": "builtin",
       "dependencies": {
@@ -278,7 +374,11 @@
       }
     },
     "com.unity.test-framework.performance": {
+<<<<<<< Updated upstream
       "version": "6.6.0",
+=======
+      "version": "3.5.0",
+>>>>>>> Stashed changes
       "depth": 2,
       "source": "builtin",
       "dependencies": {
@@ -287,7 +387,11 @@
       }
     },
     "com.unity.timeline": {
+<<<<<<< Updated upstream
       "version": "6.6.0",
+=======
+      "version": "1.8.12",
+>>>>>>> Stashed changes
       "depth": 0,
       "source": "builtin",
       "dependencies": {
@@ -298,7 +402,11 @@
       }
     },
     "com.unity.ugui": {
+<<<<<<< Updated upstream
       "version": "2.6.0",
+=======
+      "version": "2.5.0",
+>>>>>>> Stashed changes
       "depth": 0,
       "source": "builtin",
       "dependencies": {
