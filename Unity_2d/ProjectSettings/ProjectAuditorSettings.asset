@@ -19,18 +19,6 @@ MonoBehaviour:
     - PlatformGroup:
         m_String: Unknown
       m_SerializedParams:
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-      - Key: StreamingAssetsFolderSizeLimit
-        Value: 50
-      - Key: SpriteAtlasEmptySpaceLimit
-        Value: 50
-      - Key: TextureStreamingMipmapsSizeLimit
-        Value: 4000
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
       - Key: StreamingClipThresholdBytes
         Value: 218294
       - Key: LongDecompressedClipThresholdBytes
@@ -39,19 +27,10 @@ MonoBehaviour:
         Value: 204800
       - Key: LoadInBackGroundClipSizeThresholdBytes
         Value: 204800
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
       - Key: TextureStreamingMipmapsSizeLimit
         Value: 4000
       - Key: SpriteAtlasEmptySpaceLimit
         Value: 50
       - Key: StreamingAssetsFolderSizeLimit
         Value: 50
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     CurrentParamsIndex: 0
